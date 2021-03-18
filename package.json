@@ -1,0 +1,16 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A calculator with some features",
+  "main": "js/main.js",
+  "scripts": {
+    "jquery": "npm i jquery",
+    "bootstrap": "npm i bootstrap@next"
+  },
+  "author": "CodeXCursors",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "jquery": "^3.5.1"
+  }
+}

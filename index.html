@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="output">
+            <div data-previous class="previous"></div>
+            <div data-current class="current"></div>
+        </div>
+        <table class="calculator" cellspacing="0" border="0">
+            <tr>
+                <td><button data-clear id="button-clear">C</button></td>
+                <td><button data-delete>DEL</button></td>
+                <td><button data-operator>%</button></td>
+                <td><button data-operator>÷</button></td>
+            </tr>
+            <tr>
+                <td><button data-number>7</button></td>
+                <td><button data-number>8</button></td>
+                <td><button data-number>9</button></td>
+                <td><button data-operator>×</button></td>
+            </tr>
+            <tr>
+                <td><button data-number>4</button></td>
+                <td><button data-number>5</button></td>
+                <td><button data-number>6</button></td>
+                <td><button data-operator>-</button></td>
+            </tr>
+            <tr>
+                <td><button data-number>1</button></td>
+                <td><button data-number>2</button></td>
+                <td><button data-number>3</button></td>
+                <td><button data-operator>+</button></td>
+            </tr>
+            <tr>
+                <td><button data-number>.</button></td>
+                <td><button data-number>0</button></td>
+                <td><button data-sign>-/+</button></td>
+                <td><button data-equal id="button-equal">=</button></td>
+            </tr>
+        </table>
+        
+        <table class="special-calculator" cellspacing="0">
+            <tr>
+                <td><button data-sin>sin</button></td>
+                <td><button data-cos>cos</button></td>
+                <td><button data-tan>tan</button></td>
+                <td><button data-operator>^</button></td>
+            </tr>
+            <tr>
+                <td><button data-factorial>x!</button></td>
+                <td><button data-subfactorial>!x</button></td>
+                <td><button data-square-root>√</button></td>
+                <td><button data-pi>π</button></td>
+            </tr>
+            <tr>
+                <td><button data-e>e</button></td>
+                <td><button data-log>log</button></td>
+                <td><button data-ln>ln</button></td>
+                <td><button data-ceiling>⌈x⌉</button></td>
+            </tr>
+            <tr>
+                <td><button data-floor>⌊x⌋</button></td>
+                <td><button data-cot>cot</button></td>
+                <td><button data-sec>sec</button></td>
+                <td><button data-csc>csc</button></td>
+            </tr>
+            <tr>
+                <td><button data-gamma>Γ</button></td>
+                <td><button data-squared>x²</button></td>
+                <td><button data-cubed>x³</button></td>
+                <td><button data-cube-root>3√</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="pop-up">
+        <h1>Hello!</h1>
+        <p>Welcome to my first ever complete-set Calculator!</p>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
